@@ -11,9 +11,8 @@ int main()
 	while(h>l)
 	{
 		if (s[l++]!=s[h--])
-		printf("not palindrome;");
+		printf("%s ",s[h});
 		return 0;
 	}
-	printf("yes");
 	return 0;
 }
